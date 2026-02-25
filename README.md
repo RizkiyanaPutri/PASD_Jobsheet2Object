@@ -105,3 +105,11 @@ Method tidak harus diakses secara berurutan karena method akan dijalankan jika d
 ## 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
 output hasil
 ![alt text](image-2.png)
+
+# Output Latihan Praktkum
+
+## NO. 1  
+![alt text](image-3.png)
+
+## No. 2
+![alt text](image-4.png)
