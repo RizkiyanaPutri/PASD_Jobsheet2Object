@@ -15,5 +15,8 @@ public class MahasiswaMain21 {
     mhs2.updateIPK(3.30);
     mhs2.ubahKelas("TI 2L");
     mhs2.tampilkanInformasi();
+
+    Mahasiswa21 mhsYana = new Mahasiswa21("Rizkiyana Putri", "254107060072", 3.80, "SI 2J");
+    mhsYana.tampilkanInformasi();
     }
 }
