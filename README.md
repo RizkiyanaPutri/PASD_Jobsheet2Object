@@ -73,3 +73,35 @@ mhs1.ubahKelas("SI 2K");
 mhs1.updateIPK(3.60);
 ```
 Method tersebut mengubah nilai atribut kelas dan ipk, sehingga output pertama menampilkan data awal dan output kedua menampilkan data yang sudah diperbarui.
+
+## 2.3	Percobaan 3: Membuat Konstruktor
+
+## 2.3.2 Verifikasi Hasil Percobaan
+![alt text](image.png)
+
+## 2.3.3 Pertanyaan
+
+## 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+Baris kode yang digunakan untuk mendeklarasikan konstruktor berparameter pada class Mahasiswa21 adalah:
+``` java
+ public Mahasiswa21(String nama, String nim, double ipk, String kelas) {
+        this.nama = nama;
+        this.nim = nim;
+        this.kelas = kelas;
+        this.ipk = ipk;
+ }
+```
+## 2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+baris berikut melakukan proses instansiasi objek menggunakan konstruktor berparameter
+
+## 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+![alt text](image-1.png)
+
+hasilnya demikian karena konstruktor default sudah dihapus sedangkan didalam class hanya ada konstrutor berparameter (Java tidak otomatis membuat konstruktor default.)
+
+## 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+Method tidak harus diakses secara berurutan karena method akan dijalankan jika dipanggil dan setiap method berdiri sendiri dan memiliki fungsi masing - masing.
+
+## 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!
+output hasil
+![alt text](image-2.png)
