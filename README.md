@@ -48,3 +48,28 @@ if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
 ## 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
 
 Method nilaiKerja() menentukan kategori kinerja berdasarkan rentang IPK menggunakan struktur if-else if-else, lalu method mengembalikan sebuah String hasil = nilaiKinerja(); berupa kategori kinerja mahasiswa (kinerja sangat baik/baik/cukup/kurang).
+
+## 2.2	Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+## 2.2.2 Verifikasi Hasil Percobaan
+<img width="399" height="156" alt="image" src="https://github.com/user-attachments/assets/58d510fb-784e-4cff-a48b-36325863acf8" />
+
+## 2.2.3 Pertanyaan
+## 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+```java 
+Mahasiswa21 mhs1 = new Mahasiswa21();
+```
+mhs1 adalah nama object yang dihasilkan dari proses instansiasi tersebut.
+
+## 2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+Atribut dan method diakses menggunakan operator titik (.) setelah nama object.
+``` java
+namaObject.namaAtribut
+namaObject.namaMethod()
+```
+## 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+Karena sebelum pemanggilan tampilkanInformasi() yang kedua, terdapat perubahan data pada object melalui method:
+``` java
+mhs1.ubahKelas("SI 2K");
+mhs1.updateIPK(3.60);
+```
+Method tersebut mengubah nilai atribut kelas dan ipk, sehingga output pertama menampilkan data awal dan output kedua menampilkan data yang sudah diperbarui.
